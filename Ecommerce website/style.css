@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    /* background-color: rgb(231, 229, 229); */
+    background-color: silver;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+    /* background-color: rgb(154, 190, 83); */
+    background-color: rgb(231, 225, 225);
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 4px 0px rgb(172, 142, 142);
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+nav ul a{
+    text-decoration: none;
+  margin-inline: 20px;
+  font-size: 18px;
+  color: black;
+}
+nav ul a:hover{
+    color: rgb(113, 69, 69);
+    border-bottom: 2px solid rgb(180, 92, 92);
+}
+nav button{
+    height: 30px;
+    width: 80px;
+    background-color: rgb(158, 100, 100);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+nav button:hover{
+    border: 2px solid  rgb(113, 69, 69);
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+}
+nav ul{
+    margin-right: 20px;
+    /* margin-top: 11px; */
+}
+nav .Logo{
+    margin-left: 23px;
+}
+nav .Logo h1 span{
+    color: rgb(113, 69, 69);
+    
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.maintext{
+    margin-top: 80px;
+}
+.maintext h1{
+    font-size: 40px;
+}
+.maintext h2{
+    font-size:32px;
+    /* color: rgb(19, 84, 84); */
+    color: rgb(113, 69, 69);
+
+    margin-top: 35px;
+}
+.maintext img{
+    margin-right: -75px;
+}
+.maintext p{
+    margin-top: 35px;
+    font-size: 17px;
+}
+.maintext button{
+    width: 100px;
+    height: 30px;
+    background-color:  rgb(158, 100, 100);
+    margin-top: 35px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+.maintext button:hover{
+    border: 2px solid  rgb(113, 69, 69);
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+}
+.head{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 35px;
+    /* justify-content: space-between; */
+    /* margin-inline: 20px; */
+}
+.head h1 span{
+    color: rgb(113, 69, 69);
+}
+.card{
+    display: flex;
+    justify-content: center;
+ margin-top: 35px;
+    /* text-align: center; */ 
+}
+.card .trend{
+    width: 300px;
+    background-color: #fff;
+    margin-inline: 25px;
+}
+.card .trend:hover{
+    background-color: gray;
+cursor: pointer;
+width: 300px;
+transition: 0.6s ease;
+}
+
+
+.trend img{
+    width: 100%;
+    height: 350px;
+}
+.trend .cardText{
+    /* margin-top: 20px; */
+    padding: 20px;
+}
+.trend button{
+    width: 100px;
+    height: 25px;
+    background-color:  rgb(158, 100, 100);
+    margin-top: 14px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    /* margin-left: 110px; */
+    /* margin-bottom: 30px; */
+}
+.trend button:hover{
+    border: 2px solid  rgb(113, 69, 69);
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+}
+.cardText p{
+    /* color: rgb(113, 69, 69); */
+    font-size: 18px;
+}
+.cardText i{
+     margin-top:20px; 
+    /* color: rgb(245, 245, 52); */
+}
+.cardText h2{
+      color: rgb(113, 69, 69);
+      margin-top: 10px;
+}
+.blog{
+    display: flex;
+    justify-content: center;
+}
+.blogcard{
+    display: flex;
+    margin-inline: 20px;
+    width: 400px;
+    padding: 10px;
+    background-color: #fff;  
+    margin-top: 30px;
+    border-radius: 15px;
+}
+.blog .blogcard:hover{
+    background-color: gray;
+cursor: pointer;
+width: 400px;
+transition: 0.6s ease;
+}
+
+.blogcard img{
+width: 43%;
+border-radius: 10px;
+}
+.blogcard .blogText{
+    text-align: center;
+    padding: 20px;
+}
+.blogText p{
+    margin-top: 15px;
+}
+
+.blogText a{
+    width: 150px;
+    height: 30px;
+    background-color:  rgb(158, 100, 100);
+   
+    border-radius: 10px;
+    padding: 6px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+.blogText a:hover{
+    border: 2px solid  rgb(113, 69, 69);
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+}
+.head h1{
+    /* display: flex; */
+    justify-content: center;
+}
+.customer{
+    margin-top: 50px;
+    /* margin-right: 160px; */
+    display: flex;
+    /* padding: 20px; */
+    justify-content: center;
+}
+.customer .review{
+    width: 300px;
+    padding: 24px;
+margin-inline: 25px;
+    background-color: #fff
+}
+.review i{
+    margin-top: 10px;
+}
+.review img{
+    /* margin-top: 10px; */
+    width: 40%;
+    /* width: 40%; */
+    border-radius: 50%;
+    justify-content: center;
+}
+.contactPage{
+    border: 4px solid  rgb(158, 100, 100);
+    padding: 44px;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 25%;
+}
+.contactPage input{
+    width: 300px;
+    padding: 9px;
+    font-size: 17px;
+    outline: none;
+    margin-top: 11px;
+
+}
+.contactPage button{
+    width: 100px;
+    height: 25px;
+    background-color:  rgb(158, 100, 100);
+    margin-top: 30px;
+    border-radius: 0px;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+.contactPage button:hover{
+    border: 2px solid  rgb(113, 69, 69);
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    margin-top: 60px;
+    color:black ;
+    padding: 55px;
+    background-color: rgb(179, 134, 134); 
+}
+
+.text p{
+    margin-top: 15px;
+}
+/* login */
+.loginpage{
+    display:none;
+    width: 190px;
+    padding: 22px;
+    /* margin: 70px; */
+    background-color: #fff;
+    text-align: center;
+    position: absolute;
+    margin-left: 80%;
+    top: 9%;
+}
+.loginpage input{
+    width: 166px;
+    padding: 4px;
+    border: 2px solid  rgb(113, 69, 69);
+    margin-top: 11px;
+}
+.loginpage button{
+    width: 100px;
+    height: 25px;
+    background-color:  rgb(158, 100, 100);
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+.loginpage button:hover{
+    border: 2px solid  rgb(113, 69, 69);
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.copyright p{
+    background-color:rgb(171, 106, 106);
+    text-align: center;
+}
+.icon{
+    align-items: center;
+    font-size: 30px;
+    margin-right: 12px;
+}
+
+@media only screen and (max-width:730px){
+    nav ul {
+        display: none;
+    }
+    .icon{
+        display:flex;
+        cursor: pointer;
+    }
+    .showData{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 60px;
+        background-color:rgb(146, 136, 136);
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+        gap: 22px;
+        height: 250px;
+    }
+}
+@media only screen and (min-width:730px){
+    .icon{
+        display: none;
+    }
+}
